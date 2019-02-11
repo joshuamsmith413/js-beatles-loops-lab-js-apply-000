@@ -28,6 +28,6 @@ function iLoveTheBeatles(number) {
     foo.push('I love the Beatles!')
     i++
   }
-  while(i < 0)
+  while(i < number)
   return foo;
 }
