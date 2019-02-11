@@ -3,9 +3,10 @@ const musicians = ["John Lennon", "Paul McCartney", "George Harrison", "Ringo St
 const instruments = ["Guitar", "Bass Guitar", "Lead Guitar", "Drums"];
  function theBeatlesPlay(musicians, instruments) {
    let answer = []
+   let myString = ''
    for (let i = 0; i > musicians.length; i++) {
-     let myString = musicians[i] + 'plays' + instruments[i];
-     answer.push(myString);
+     myString.push(musicians[i] + 'plays' + instruments[i]);
+    ;
    }
-   return answer;
+   return answer.push(myString);
  }
