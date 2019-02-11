@@ -23,10 +23,10 @@ function johnLennonFacts(facts) {
 
 function iLoveTheBeatles(number) {
   var foo = [];
-  let i = 0;
+
   do {
     foo.push('I love the Beatles!')
-    i++
+    number++
   }
   while(i < 15)
   return foo;
