@@ -10,3 +10,13 @@ const instruments = ["Guitar", "Bass Guitar", "Lead Guitar", "Drums"];
    }
    return answer;
  }
+
+function johnLennonFacts(facts) {
+  let foo = [];
+  let i = 0;
+  while (i < facts.length) {
+    foo += facts + '!!!'
+    i++;
+  }
+  return foo;
+}
